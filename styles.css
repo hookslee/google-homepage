@@ -1,7 +1,8 @@
 #logo_div {
     text-align: center;
     margin: auto;
-    
-
 }
-
+.locked_header {
+    position:absolute; 
+    top: 0px;
+}
