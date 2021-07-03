@@ -1,8 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #logo_div {
     text-align: center;
     margin: auto;
+    position: relative;
+    top: 30%; 
 }
+
+#input_div {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+#search_bar {
+    text-align: center;
+    width: 50%; 
+    height: 50px;
+}
+
 .locked_header {
-    position:absolute; 
+    position:relative; 
     top: 0px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 7.5% 7.5% 55% 7.5% 7.5% 7.5% 7.5%;
 }
+#button_div {
+    padding-top: 40px;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#sign-in_button {
+    background-color:rgb(50, 95, 219);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+footer {
+    position: relative; 
+    background-color: lightgray;
+    height: 100px; 
+    width: 100%;
+    bottom: 0;
+}
+
+#region_div {
+    text-align: left;
+    position: relative; 
+    top: 5px;
+    padding-left: 30px;
+    color: rgb(117, 117, 117);
+}
+
+.spacer_line {
+    color:rgb(206, 205, 205);
+}
+
